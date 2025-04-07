@@ -1,0 +1,10 @@
+[
+    {
+        "path": "/",
+        "dataPath": "/documents/home.json"
+    },
+    {
+        "path": "/next_page",
+        "dataPath": "/documents/next_page.json"
+    }
+]

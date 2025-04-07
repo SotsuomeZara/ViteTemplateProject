@@ -1,0 +1,23 @@
+{
+    "content": [
+        {
+            "tag": "H1",
+            "props": { "text": "Come home!" }
+        },
+        {
+            "tag": "DocumentSection",
+            "props": { 
+                "header": "header!", 
+                "content": "content!"
+            }
+        },
+        {
+            "tag": "MenuSection",
+            "props": {
+                "links": [
+                    ["/next_page", "Next Page"]
+                ]
+            }
+        }
+    ]
+}
