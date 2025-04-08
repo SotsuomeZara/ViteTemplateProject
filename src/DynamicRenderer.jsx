@@ -3,6 +3,7 @@ import LINK from "./components/Alternates/LINK.jsx";
 import H1 from "./components/Alternates/H1.jsx";
 import DocumentSection from "./components/DocumentSection.jsx";
 import MenuSection from "./components/MenuSection.jsx";
+import styles from "./DynamicRenderer.module.css";
 
 const importComponents = {
     LINK,
@@ -24,7 +25,7 @@ export default function DynamicRenderer({ dataPath }) {
     if (!content) return <div>Now loading...</div>
 
     return (
-        <div className="dynamic-renderer">
+        <div className={styles.dynamic_renderer}>
             {content.map((components, index) => {
                 const Component = importComponents[components.tag];
                 if (!Component) return null;

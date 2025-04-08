@@ -1,0 +1,14 @@
+.app_header {
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    border-bottom: ridge;
+}
+
+.header_logo {
+    margin: 20px;
+}
+
+.setting {
+    margin: 20px;
+}

@@ -1,0 +1,11 @@
+.document_section {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: ridge;
+    border-radius: 8px;
+}
+
+.document_header {
+    font-size: 250%;
+}

@@ -1,0 +1,17 @@
+.app_footer {
+    background-color: whitesmoke;
+}
+
+.footer_logo {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    border-top: ridge;
+}
+
+.electrosphere_logo {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    border-top: ridge;
+}
