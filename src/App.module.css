@@ -8,6 +8,33 @@
     min-height: 100vh;
 }
 
-.main {
+.center {
+    display: flex;
     flex: 1;
+}
+
+.main {
+    flex-grow: 1;
+    background-color: azure;
+}
+
+.left_side_bar {
+    width: 200px;
+    flex-shrink: 0;
+    border-right: ridge;
+}
+
+.right_side_bar {
+    width: 200px;
+    flex-shrink: 0;
+    border-left: ridge;
+}
+
+@media (max-width: 1024px) {
+    .left_side_bar {
+        display: none;
+    }
+    .right_side_bar {
+        display: none;
+    }
 }

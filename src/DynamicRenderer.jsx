@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import LINK from "./components/Alternates/LINK.jsx";
 import H1 from "./components/Alternates/H1.jsx";
+import UL from "./components/Alternates/UL.jsx";
 import DocumentSection from "./components/DocumentSection.jsx";
 import MenuSection from "./components/MenuSection.jsx";
 import styles from "./DynamicRenderer.module.css";
@@ -8,6 +9,7 @@ import styles from "./DynamicRenderer.module.css";
 const importComponents = {
     LINK,
     H1,
+    UL,
     DocumentSection,
     MenuSection,
 };
